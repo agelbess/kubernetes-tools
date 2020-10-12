@@ -6,3 +6,8 @@ RUN echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-
 RUN apt-get update
 RUN apt-get install -y mongodb-org-shell
 RUN apt-get install -y mongodb-org-tools
+RUN apt-get install -y curl
+RUN apt-get install -y wget
+RUN apt-get install -y zip
+RUN apt-get install -y vim
+RUN apt-get install -y nano
