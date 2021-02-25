@@ -13,3 +13,5 @@ RUN apt-get install -y vim
 RUN apt-get install -y nano
 RUN apt-get install -y iputils-ping
 RUN apt-get install -y telnet
+RUN apt-get install -y nodejs
+RUN apt-get install -y npm
